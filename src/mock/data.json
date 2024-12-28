@@ -1,0 +1,52 @@
+{
+  "logs": {
+    "armbar_escape_closed": {
+      "category": "Escape",
+      "date": "2024/10/15",
+      "description": "From an armbar in closed guard, do not stand up. Take your knee to their tailbone and drive in. Shimmy your arm out, get a C grip on the other leg, and finish.",
+      "title": "Armbar Escape (Closed Guard)"
+    },
+    "bottom_half_knee_tap": {
+      "category": "Sweep",
+      "date": "2024/03/11",
+      "description": "From the bottom, get an underhook, peel the leg across, and get onto your knees. Free hand taps the far knee as you drive into your partner to finish the sweep.",
+      "title": "Bottom Half Guard Sweep (Knee Tap)"
+    },
+    "bottom_half_triangle": {
+      "category": "Attack",
+      "date": "2024/03/11",
+      "description": "From the bottom, get an underhook, peel the leg across, and get onto your knees. While in the dogfight position, push in, take the bottom leg, and swing over for high guard. Adjust for a triangle and finish.",
+      "title": "Bottom Half Guard Sweep (Triangle)"
+    },
+    "bottomn_half_roll_through": {
+      "category": "Sweep",
+      "date": "2024/03/11",
+      "description": "From the bottom, get an underhook, peel the leg across, and get onto your knees. While in the dogfight position, push in. When your training partner pushes back, shoot in between their hips and roll.",
+      "title": "Bottom Half Guard Sweep (Roll Through)"
+    },
+    "scissor_sweep": {
+      "category": "Sweep",
+      "date": "2024/05/21",
+      "description": "From closed guard, grab a grip by their collarbone and control the post arm. Open guard, place one leg on the mat, and the other leg across the belly. Pull over as you kick across.",
+      "title": "Scissor Sweep"
+    },
+    "sum_butter": {
+      "category": "Attack",
+      "date": "2024/10/02",
+      "description": "From bottom butterfly, when they get a cross face, crush your shoulders. Shrimp onto your side, remove the hook, and put it onto their back. Create a crevice, crunch on their elbow, and finish.",
+      "title": "Sumagashi (Butterfly)"
+    },
+    "turtle_g": {
+      "category": "Attack",
+      "date": "2024/08/12",
+      "description": "From top turtle, get the chin strap and blade of the wrist into their neck. Grab the meat of your hand with the opposite hand. Get a high elbow, hip into them, fall back, use your legs to block, and finish.",
+      "title": "Turtle Guillotine"
+    },
+    "x_guard": {
+      "category": "Guard",
+      "date": "2024/02/27",
+      "description": "Left leg goes inside, and the knee goes behind the left knee. Left foot goes on partner's left hip. Right foot goes behind the opponent's left knee. Active toes on both feet.",
+      "title": "X Guard"
+    }
+  }
+}
