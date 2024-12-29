@@ -12,11 +12,11 @@
       "description": "From the bottom, get an underhook, peel the leg across, and get onto your knees. Free hand taps the far knee as you drive into your partner to finish the sweep.",
       "title": "Bottom Half Guard Sweep (Knee Tap)"
     },
-    "bottom_half_triangle": {
-      "category": "Attack",
-      "date": "2024/03/11",
-      "description": "From the bottom, get an underhook, peel the leg across, and get onto your knees. While in the dogfight position, push in, take the bottom leg, and swing over for high guard. Adjust for a triangle and finish.",
-      "title": "Bottom Half Guard Sweep (Triangle)"
+    "pressure_pass": {
+      "category": "Pass",
+      "date": "2024/06/03",
+      "description": "Right arm under the leg to grab the belt. Left arm stiff-arms the left leg. Drive your shoulder into their belly and step over the bottom leg with constant pressure until settling into side control.",
+      "title": "Pressure Pass"
     },
     "bottomn_half_roll_through": {
       "category": "Sweep",
@@ -36,11 +36,11 @@
       "description": "From bottom butterfly, when they get a cross face, crush your shoulders. Shrimp onto your side, remove the hook, and put it onto their back. Create a crevice, crunch on their elbow, and finish.",
       "title": "Sumagashi (Butterfly)"
     },
-    "turtle_g": {
-      "category": "Attack",
-      "date": "2024/08/12",
-      "description": "From top turtle, get the chin strap and blade of the wrist into their neck. Grab the meat of your hand with the opposite hand. Get a high elbow, hip into them, fall back, use your legs to block, and finish.",
-      "title": "Turtle Guillotine"
+    "collar_drag": {
+      "category": "Takedown",
+      "date": "2024/07/31",
+      "description": "Grab the collar, step to the opposite side, and as you step, drag your elbow to the ground like a row. Throw yourself back, pop up, and secure the takedown position.",
+      "title": "Collar Drag"
     },
     "x_guard": {
       "category": "Guard",
