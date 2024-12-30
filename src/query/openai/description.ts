@@ -1,16 +1,36 @@
-import chat from '../../config/openaiConfig';
 import promptCreation from '../../prompt/creation';
+import { openAIInstance } from '../../config/axiosConfig';
 
 export const description = {
   development: async (des: string) => {
-    return 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu ultrices purus. Curabitur nec dui quis enim blandit porta. Phasellus pretium enim rhoncus, sagittis tortor a, egestas erat. Praesent maximus ex id elit cursus pretium. Sed imperdiet sollicitudin quam sed cursus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In hac habitasse platea dictumst.';
+    const requestBody = {
+      model: 'gpt-3.5-turbo',
+      message: {
+        role: 'user',
+        content: promptCreation(des),
+      },
+    };
+    try {
+      debugger;
+      const res = await openAIInstance.post('v1/chat/completions', requestBody);
+      return res.data;
+    } catch (error) {
+      console.error('Error in development function:', error);
+      throw error;
+    }
   },
   production: async (description: string) => {
-    debugger;
-    const message = await chat({
-      model: 'gpt-4o-mini-2024-07-18',
-      messages: [{ role: 'user', content: promptCreation(description) }],
-    });
-    return message.choices[0].message.content;
+    const requestBody = {
+      message: {
+        role: 'user',
+        content: promptCreation(description),
+      },
+    };
+    try {
+      await openAIInstance.post('/v1/chat/completions', requestBody);
+    } catch (error) {
+      console.error('Error in development function:', error);
+      throw error;
+    }
   },
 };

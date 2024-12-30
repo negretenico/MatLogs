@@ -1,7 +1,4 @@
 import Tabs from './Tabs';
-import { useQuery } from '@tanstack/react-query';
-import { QUERY_KEYS } from '../../query/keys';
-import { QUERY_FUNCTIONS } from '../../query/functions';
 
 type ModalProps = {
   title: string;
@@ -10,15 +7,17 @@ type ModalProps = {
   close: () => void;
 };
 export default function Modal({ original, show, close, title }: ModalProps) {
-  const { data: enhanced, isLoading } = useQuery({
-    enabled: show,
-    queryKey: QUERY_KEYS.openai.description,
-    queryFn: () => QUERY_FUNCTIONS.openai.description(original),
-  });
+  // const { data: enhanced, isLoading } = useQuery({
+  //   enabled: show,
+  //   queryKey: [...QUERY_KEYS.openai.description, original],
+  //   queryFn: () => QUERY_FUNCTIONS.openai.description(original),
+  //   retry: false,
+  //   staleTime: 60_000,
+  // });
+  const enhanced = 'coming soon :D';
   if (!show) {
     return <></>;
   }
-  console.log(enhanced);
   return (
     <div className="fixed inset-0 z-10 overflow-y-auto">
       <div
@@ -41,13 +40,9 @@ export default function Modal({ original, show, close, title }: ModalProps) {
             </div>
           </div>
           <div className="border-t border-gray-200 my-4">
-            {isLoading ? (
-              <>Loading...</>
-            ) : (
-              <div className={'my-2'}>
-                <Tabs original={original} enhanced={enhanced} />
-              </div>
-            )}
+            <div className={'my-2'}>
+              <Tabs original={original} enhanced={enhanced} />
+            </div>
           </div>
         </div>
       </div>
