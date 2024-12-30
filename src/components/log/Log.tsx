@@ -1,5 +1,5 @@
-import Tag from './Tag';
-import { categoryMapper } from '../constants/categoryMapper';
+import Tag from '../generic/Tag';
+import { categoryMapper } from '../../constants/categoryMapper';
 
 type LogProp = {
   title: string;

@@ -1,5 +1,5 @@
-import { LogType } from '../types/LogType';
-import Log from './Log';
+import { LogType } from '../../types/LogType';
+import ClickableLog from './ClickableLog';
 
 type LogsProps = {
   logs: Array<LogType>;
@@ -14,7 +14,7 @@ export default function Logs({ logs }: LogsProps) {
         {logs.map((log) => {
           return (
             <li key={`${log.category}-${log.title}`} className={'my-2'}>
-              <Log {...log} />
+              <ClickableLog {...log} />
             </li>
           );
         })}

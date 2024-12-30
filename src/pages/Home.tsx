@@ -2,8 +2,8 @@ import { QUERY_KEYS } from '../query/keys';
 import { QUERY_FUNCTIONS } from '../query/functions';
 import { useSuspenseQuery } from '@tanstack/react-query';
 import { LogType } from '../types/LogType';
-import Logs from '../components/Logs';
-import SearchBar from '../components/SearchBar';
+import Logs from '../components/log/Logs';
+import SearchBar from '../components/generic/SearchBar';
 import { useMemo, useState } from 'react';
 import Fuse from 'fuse.js';
 

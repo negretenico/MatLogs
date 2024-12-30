@@ -36,6 +36,7 @@ jobs:
           PUBLIC_URL: /MatLogs
           REACT_APP_ENV: production
           REACT_APP_FIREBASE_KEY: ${{secrets.REACT_APP_FIREBASE_KEY}}
+          REACT_APP_OPEN_AI_KEY: ${{secrets.REACT_APP_OPEN_AI_KEY}}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
